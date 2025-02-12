@@ -100,11 +100,11 @@ def handle_attack(message):
     command = message.text.split()
 
     if message.chat.id != int(GROUP_ID):
-        bot.reply_to(message, f".•❅☁█▒░𝐘𝐄 𝐁𝐎𝐓 𝐒𝐈𝐑𝐅 𝐘𝐄 𝐆𝐑𝐎𝐔𝐏 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄 𝐂𝐇𝐀𝐋𝐄𝐆𝐀. 𝐉𝐎𝐈𝐍 -{CHANNEL_USERNAME}")
+        bot.reply_to(message, f".•❅☁█▒░𝐘𝐄 𝐁𝐎𝐓 𝐒𝐈𝐑𝐅 𝐘𝐄 𝐆𝐑𝐎𝐔𝐏 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄 𝐂𝐇𝐀𝐋𝐄𝐆𝐀. 𝐉𝐎𝐈𝐍 -https://t.me/+uToh9lMXXn81ZDJl")
         return
 
     if not is_user_in_channel(user_id):
-        bot.reply_to(message, f"𝐉𝐎𝐈𝐍 𝐊𝐑𝐎 𝐏𝐀𝐇𝐋𝐄 {CHANNEL_USERNAME} ░░░░✦╬═••")
+        bot.reply_to(message, f"𝐉𝐎𝐈𝐍 𝐊𝐑𝐎 𝐏𝐀𝐇𝐋𝐄 {CHANNEL_USERNAME} https://t.me/hackssll")
         return
 
     # ✅ Check if the user has pending feedback
@@ -287,7 +287,7 @@ def handle_screenshot(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, Feel Free to Explore.\nThe World's Best Ddos Bot\nTo Use This Bot Join https://t.me/FEEDBACKDDOS247"
+    response = f"Welcome to Your Home, Feel Free to Explore.\nThe World's Best Ddos Bot\nTo Use This Bot Join https://t.me/+uToh9lMXXn81ZDJl"
     bot.reply_to(message, response)
 
 # Function to reset daily limits automatically
